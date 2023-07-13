@@ -44,3 +44,10 @@ width: 500px;
 
 
 }
+
+.mark-done{
+
+text-decoration: line-through;
+
+
+}

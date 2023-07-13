@@ -1,7 +1,15 @@
 import react from 'react';
 import Table from 'react-bootstrap/Table';
 
-export default function TodoList({todoList,doneBtnHandler}) {
+export default function TodoList({todoList, markAsDone}) {
+
+
+  const doneBtnHandler = (id)=> {
+markAsDone(id);
+
+
+  
+  }
 return(
  
 
